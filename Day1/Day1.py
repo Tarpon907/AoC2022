@@ -22,3 +22,4 @@ print("A:",sums[-1])
 print("B",sum(map(int,sums[-3:])))
 
 
+print("execution time (in ms): ",(time.time()-start_time)*1000) 
