@@ -47,7 +47,7 @@ start = [-1,0]
 minute = 0
 
 def roll_blizzards(bliz):
-#    print("east:\n",bliz[0])
+#    print("east:\n",bliz[0]) 
     bliz[0] = np.roll(bliz[0], 1, axis = 1)
 #    print("rolled:\n",bliz[0])
 #    print("south:\n",bliz[1])
